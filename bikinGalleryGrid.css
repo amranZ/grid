@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d0d0d5;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.gallery {
+    background-color: white;
+    width: 80%;
+    height: 100vh;
+    margin: 20px auto;
+    border: 10px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    row-gap: 10px;
+    place-content: space-evenly;    
+}
+.gallery img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
